@@ -1,2 +1,37 @@
-# 项目排除路径
-/restaurant-backend/target/
+# 编译产物和构建文件
+**/target/
+**/build/
+**/*.class
+**/*.jar
+**/*.war
+
+# 依赖和包管理
+**/node_modules/
+package-lock.json
+
+# IDE文件
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+**/*.log
+
+# 临时文件和缓存
+**/temp/
+**/tmp/
+**/cache/
+
+# 上传文件目录
+uploads/
+
+# 环境配置文件
+.env
+.env.local
+.env.production
